@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		768BAF462C78CE8900DFD3A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF452C78CE8900DFD3A8 /* main.swift */; };
 		768BAF4D2C79117600DFD3A8 /* SoftBedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4C2C79117600DFD3A8 /* SoftBedding.swift */; };
+		768BAF4F2C791C1400DFD3A8 /* MostDifficultLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4E2C791C1400DFD3A8 /* MostDifficultLetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		768BAF422C78CE8900DFD3A8 /* CodeRun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeRun; sourceTree = BUILT_PRODUCTS_DIR; };
 		768BAF452C78CE8900DFD3A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		768BAF4C2C79117600DFD3A8 /* SoftBedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftBedding.swift; sourceTree = "<group>"; };
+		768BAF4E2C791C1400DFD3A8 /* MostDifficultLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostDifficultLetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				768BAF452C78CE8900DFD3A8 /* main.swift */,
+				768BAF4E2C791C1400DFD3A8 /* MostDifficultLetter.swift */,
 				768BAF4C2C79117600DFD3A8 /* SoftBedding.swift */,
 			);
 			path = CodeRun;
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				768BAF462C78CE8900DFD3A8 /* main.swift in Sources */,
+				768BAF4F2C791C1400DFD3A8 /* MostDifficultLetter.swift in Sources */,
 				768BAF4D2C79117600DFD3A8 /* SoftBedding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
