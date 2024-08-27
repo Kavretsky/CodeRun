@@ -12,6 +12,7 @@
 		768BAF4F2C791C1400DFD3A8 /* MostDifficultLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4E2C791C1400DFD3A8 /* MostDifficultLetter.swift */; };
 		768BAF512C7922B100DFD3A8 /* CollarsAndDogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF502C7922B100DFD3A8 /* CollarsAndDogs.swift */; };
 		768BAF532C7A339300DFD3A8 /* FindStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF522C7A339300DFD3A8 /* FindStore.swift */; };
+		768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF542C7E4A1000DFD3A8 /* 212.addMinus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		768BAF4E2C791C1400DFD3A8 /* MostDifficultLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostDifficultLetter.swift; sourceTree = "<group>"; };
 		768BAF502C7922B100DFD3A8 /* CollarsAndDogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollarsAndDogs.swift; sourceTree = "<group>"; };
 		768BAF522C7A339300DFD3A8 /* FindStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindStore.swift; sourceTree = "<group>"; };
+		768BAF542C7E4A1000DFD3A8 /* 212.addMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 212.addMinus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				768BAF522C7A339300DFD3A8 /* FindStore.swift */,
 				768BAF452C78CE8900DFD3A8 /* main.swift */,
+				768BAF542C7E4A1000DFD3A8 /* 212.addMinus.swift */,
 				768BAF502C7922B100DFD3A8 /* CollarsAndDogs.swift */,
 				768BAF4E2C791C1400DFD3A8 /* MostDifficultLetter.swift */,
 				768BAF4C2C79117600DFD3A8 /* SoftBedding.swift */,
@@ -137,6 +140,7 @@
 				768BAF4F2C791C1400DFD3A8 /* MostDifficultLetter.swift in Sources */,
 				768BAF4D2C79117600DFD3A8 /* SoftBedding.swift in Sources */,
 				768BAF512C7922B100DFD3A8 /* CollarsAndDogs.swift in Sources */,
+				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
