@@ -8,47 +8,39 @@
 import Foundation
 
 // 212. Добавить минусы
-// Pass closed tests: 18/35
-// no idea about wrong test-cases
 
-func addMinus() {
-    let numString = readLine()!
-    let numAr = Array(numString)
-    var currentSet = Set<String>()
-    var resultArr = [String]()
-    var currentNUm = ""
-    for num in numAr.reversed() {
-        currentNUm += String(num)
-        var adaptiveNum = currentNUm.filter({ $0 != "0" }).isEmpty ? "0" : currentNUm
-        if let lastNotZero = adaptiveNum.lastIndex(where: { $0 != "0" }) {
-            let newIndex = adaptiveNum.index(lastNotZero, offsetBy: 1)
-            adaptiveNum = String(adaptiveNum.prefix(upTo: newIndex))
+func isValidPartition(_ parts: [String]) -> Bool {
+    var seen: Set<String> = []
+    for part in parts {
+        if (part.hasPrefix("0") && part != "0") || seen.contains(part) {
+            return false
         }
-        if !currentSet.contains(adaptiveNum) {
-            currentSet.insert(currentNUm)
-            resultArr.append(currentNUm)
-            currentNUm = ""
+        seen.insert(part)
+    }
+    return true
+}
+
+func addMinus(_ n: String) -> String {
+    let length = n.count
+    var bestPartition: [String] = []
+    
+    for mask in 0..<(1 << (length - 1)) {
+        var parts: [String] = []
+        var currentPart = ""
+        
+        for (i, char) in n.enumerated() {
+            currentPart.append(char)
+
+            if (mask & (1 << i)) != 0 || i == length - 1 {
+                parts.append(currentPart)
+                currentPart = ""
+            }
+        }
+        
+        if isValidPartition(parts) && parts.count > bestPartition.count {
+            bestPartition = parts
         }
     }
-    var addedNumbers = 1
-    while !currentNUm.isEmpty {
-        resultArr[resultArr.count - 1] += String(currentNUm.removeFirst())
-        guard !currentNUm.isEmpty else { break }
-        var adaptiveNum = currentNUm.filter({ $0 != "0" }).isEmpty ? "0" : currentNUm
-        if let lastNotZero = adaptiveNum.lastIndex(where: { $0 != "0" }) {
-            let newIndex = adaptiveNum.index(lastNotZero, offsetBy: 1)
-            adaptiveNum = String(adaptiveNum.prefix(upTo: newIndex))
-        }
-        let lastNumberBeforeAdd = String(resultArr[resultArr.count - 1].dropLast(addedNumbers))
-        if !currentSet.contains(adaptiveNum) && !currentSet.contains(lastNumberBeforeAdd) {
-            currentSet.insert(currentNUm)
-            resultArr.append(currentNUm)
-            currentNUm = ""
-        }
-        addedNumbers += 1
-    }
-    let resultString = resultArr.joined(separator: "-").reversed().reduce(into: String()) { partialResult, strEl in
-        partialResult += String(strEl)
-    }
-    print(resultString)
+    
+    return bestPartition.joined(separator: "-")
 }
