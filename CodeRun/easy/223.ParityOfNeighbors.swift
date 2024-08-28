@@ -8,6 +8,8 @@
 import Foundation
 
 
+//223. Чётность соседей
+// passed 10/81 tests
 
 func parityOfNeighbors() {
     let numberOfElements = Int(readLine()!)!
@@ -99,6 +101,17 @@ func parityOfNeighbors() {
         if nums[index] != resultArr[index] {
             differents += 1
             differenceIndices.append(index)
+        }
+    }
+    
+    for i in 0..<resultArr.count - 1 {
+        for j in i + 1..<resultArr.count {
+            if resultArr[i] % 2 == resultArr[j] % 2, resultArr[i] != resultArr[j] {
+                if nums[i] == resultArr[j] || nums[j] == resultArr[i] {
+                    resultArr.swapAt(i, j)
+                    differents -= 1
+                }
+            }
         }
     }
     

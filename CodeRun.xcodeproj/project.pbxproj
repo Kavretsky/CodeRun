@@ -13,6 +13,8 @@
 		768BAF512C7922B100DFD3A8 /* 185.CollarsAndDogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF502C7922B100DFD3A8 /* 185.CollarsAndDogs.swift */; };
 		768BAF532C7A339300DFD3A8 /* 199.FindStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF522C7A339300DFD3A8 /* 199.FindStore.swift */; };
 		768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF542C7E4A1000DFD3A8 /* 212.addMinus.swift */; };
+		768BAF572C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF562C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift */; };
+		768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF5A2C7F999600DFD3A8 /* 160.FindRome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		768BAF502C7922B100DFD3A8 /* 185.CollarsAndDogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 185.CollarsAndDogs.swift; sourceTree = "<group>"; };
 		768BAF522C7A339300DFD3A8 /* 199.FindStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 199.FindStore.swift; sourceTree = "<group>"; };
 		768BAF542C7E4A1000DFD3A8 /* 212.addMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 212.addMinus.swift; sourceTree = "<group>"; };
+		768BAF562C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 223.ParityOfNeighbors.swift; sourceTree = "<group>"; };
+		768BAF5A2C7F999600DFD3A8 /* 160.FindRome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 160.FindRome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +71,32 @@
 		768BAF442C78CE8900DFD3A8 /* CodeRun */ = {
 			isa = PBXGroup;
 			children = (
+				768BAF592C7F998800DFD3A8 /* medium */,
+				768BAF582C7F998000DFD3A8 /* easy */,
+				768BAF452C78CE8900DFD3A8 /* main.swift */,
+			);
+			path = CodeRun;
+			sourceTree = "<group>";
+		};
+		768BAF582C7F998000DFD3A8 /* easy */ = {
+			isa = PBXGroup;
+			children = (
 				768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */,
 				768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */,
 				768BAF502C7922B100DFD3A8 /* 185.CollarsAndDogs.swift */,
 				768BAF522C7A339300DFD3A8 /* 199.FindStore.swift */,
 				768BAF542C7E4A1000DFD3A8 /* 212.addMinus.swift */,
-				768BAF452C78CE8900DFD3A8 /* main.swift */,
+				768BAF562C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift */,
 			);
-			path = CodeRun;
+			path = easy;
+			sourceTree = "<group>";
+		};
+		768BAF592C7F998800DFD3A8 /* medium */ = {
+			isa = PBXGroup;
+			children = (
+				768BAF5A2C7F999600DFD3A8 /* 160.FindRome.swift */,
+			);
+			path = medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 				768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */,
 				768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */,
 				768BAF512C7922B100DFD3A8 /* 185.CollarsAndDogs.swift in Sources */,
+				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
 				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,
+				768BAF572C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
