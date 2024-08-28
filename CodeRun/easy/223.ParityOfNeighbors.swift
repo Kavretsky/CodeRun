@@ -12,7 +12,7 @@ import Foundation
 // passed 10/81 tests
 
 func parityOfNeighbors() {
-    let numberOfElements = Int(readLine()!)!
+    let _ = Int(readLine()!)!
     let nums = readLine()!.split(separator: " ").compactMap { Int(String($0))! }
     guard nums.count > 1 else {
         print("0")

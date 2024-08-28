@@ -9,7 +9,7 @@ import Foundation
 
 // Самая сложная буква
 func mostDifficultLetter() {
-    let letterNumber = readLine()!.split(separator: " ").compactMap { Int(String($0))! }.first!
+    let _ = readLine()!.split(separator: " ").compactMap { Int(String($0))! }.first!
     let str = readLine()!.map { String($0) }
     let delayAr = readLine()!.split(separator: " ").compactMap { Int(String($0))! }
     
