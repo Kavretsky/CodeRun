@@ -21,6 +21,7 @@
 		768BAF652C80AC9900DFD3A8 /* 2.FindGoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF642C80AC9900DFD3A8 /* 2.FindGoose.swift */; };
 		768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF662C80B03600DFD3A8 /* 3.LuckyBox.swift */; };
 		768BAF692C80B33100DFD3A8 /* 4.MaksimsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */; };
+		768BAF6B2C80C32900DFD3A8 /* 5.GameCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		768BAF642C80AC9900DFD3A8 /* 2.FindGoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.FindGoose.swift; sourceTree = "<group>"; };
 		768BAF662C80B03600DFD3A8 /* 3.LuckyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.LuckyBox.swift; sourceTree = "<group>"; };
 		768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.MaksimsGame.swift; sourceTree = "<group>"; };
+		768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.GameCities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				768BAF5C2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift */,
 				768BAF5A2C7F999600DFD3A8 /* 160.FindRome.swift */,
 				768BAF5E2C7FAED600DFD3A8 /* 175.UniqueUsers.swift */,
+				768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */,
 			);
 			path = medium;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */,
 				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,
 				768BAF572C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift in Sources */,
+				768BAF6B2C80C32900DFD3A8 /* 5.GameCities.swift in Sources */,
 				768BAF632C80AAB400DFD3A8 /* 1.LowBattery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
