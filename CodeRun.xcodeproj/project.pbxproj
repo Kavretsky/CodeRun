@@ -17,7 +17,8 @@
 		768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF5A2C7F999600DFD3A8 /* 160.FindRome.swift */; };
 		768BAF5D2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF5C2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift */; };
 		768BAF5F2C7FAED600DFD3A8 /* 175.UniqueUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF5E2C7FAED600DFD3A8 /* 175.UniqueUsers.swift */; };
-		768BAF632C80AAB400DFD3A8 /* LowBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF622C80AAB400DFD3A8 /* LowBattery.swift */; };
+		768BAF632C80AAB400DFD3A8 /* 1.LowBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF622C80AAB400DFD3A8 /* 1.LowBattery.swift */; };
+		768BAF652C80AC9900DFD3A8 /* 2.FindGoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF642C80AC9900DFD3A8 /* 2.FindGoose.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,7 +45,8 @@
 		768BAF5A2C7F999600DFD3A8 /* 160.FindRome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 160.FindRome.swift; sourceTree = "<group>"; };
 		768BAF5C2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 168.UpgradeCharacter.swift; sourceTree = "<group>"; };
 		768BAF5E2C7FAED600DFD3A8 /* 175.UniqueUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 175.UniqueUsers.swift; sourceTree = "<group>"; };
-		768BAF622C80AAB400DFD3A8 /* LowBattery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowBattery.swift; sourceTree = "<group>"; };
+		768BAF622C80AAB400DFD3A8 /* 1.LowBattery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.LowBattery.swift; sourceTree = "<group>"; };
+		768BAF642C80AC9900DFD3A8 /* 2.FindGoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.FindGoose.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +95,8 @@
 				768BAF522C7A339300DFD3A8 /* 199.FindStore.swift */,
 				768BAF542C7E4A1000DFD3A8 /* 212.addMinus.swift */,
 				768BAF562C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift */,
-				768BAF622C80AAB400DFD3A8 /* LowBattery.swift */,
+				768BAF622C80AAB400DFD3A8 /* 1.LowBattery.swift */,
+				768BAF642C80AC9900DFD3A8 /* 2.FindGoose.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				768BAF462C78CE8900DFD3A8 /* main.swift in Sources */,
 				768BAF532C7A339300DFD3A8 /* 199.FindStore.swift in Sources */,
+				768BAF652C80AC9900DFD3A8 /* 2.FindGoose.swift in Sources */,
 				768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */,
 				768BAF5D2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift in Sources */,
 				768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */,
@@ -176,7 +180,7 @@
 				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
 				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,
 				768BAF572C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift in Sources */,
-				768BAF632C80AAB400DFD3A8 /* LowBattery.swift in Sources */,
+				768BAF632C80AAB400DFD3A8 /* 1.LowBattery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
