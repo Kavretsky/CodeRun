@@ -22,6 +22,7 @@
 		768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF662C80B03600DFD3A8 /* 3.LuckyBox.swift */; };
 		768BAF692C80B33100DFD3A8 /* 4.MaksimsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */; };
 		768BAF6B2C80C32900DFD3A8 /* 5.GameCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */; };
+		768BAF6D2C80D05800DFD3A8 /* 6.CallCenterJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		768BAF662C80B03600DFD3A8 /* 3.LuckyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.LuckyBox.swift; sourceTree = "<group>"; };
 		768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.MaksimsGame.swift; sourceTree = "<group>"; };
 		768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.GameCities.swift; sourceTree = "<group>"; };
+		768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.CallCenterJournal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		768BAF582C7F998000DFD3A8 /* easy */ = {
 			isa = PBXGroup;
 			children = (
+				768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */,
 				768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */,
 				768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */,
 				768BAF502C7922B100DFD3A8 /* 185.CollarsAndDogs.swift */,
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768BAF6D2C80D05800DFD3A8 /* 6.CallCenterJournal.swift in Sources */,
 				768BAF462C78CE8900DFD3A8 /* main.swift in Sources */,
 				768BAF532C7A339300DFD3A8 /* 199.FindStore.swift in Sources */,
 				768BAF652C80AC9900DFD3A8 /* 2.FindGoose.swift in Sources */,
