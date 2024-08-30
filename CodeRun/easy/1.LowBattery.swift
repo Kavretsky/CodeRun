@@ -10,7 +10,7 @@ import Foundation
 //1 Села батарейка
 
 func lowBattery() {
-    let appNum = Int(readLine()!)
+    _ = Int(readLine()!)
     let appUsage = readLine()!.split(separator: " ").map { Int($0)! }.reduce(0, +)
     
     print(100 / appUsage)

@@ -10,9 +10,9 @@ import Foundation
 //4 Игра макисма
 
 func passGame() {
-    let numberOfEnemy = Int(readLine()!)
+    _ = Int(readLine()!)
     let enemies = readLine()!.split(separator: " ").map { Int(String($0))! }
-    var sortedEnemies = enemies.sorted(by: <)
+    let sortedEnemies = enemies.sorted(by: <)
     var dictIndices = [Int:[Int]]()
     for (index, enemy) in enemies.enumerated() {
         dictIndices[enemy, default: []].append(index + 1)

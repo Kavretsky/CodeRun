@@ -24,6 +24,7 @@
 		768BAF6B2C80C32900DFD3A8 /* 5.GameCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */; };
 		768BAF6D2C80D05800DFD3A8 /* 6.CallCenterJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */; };
 		768BAF6F2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6E2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift */; };
+		768BAF712C81D58500DFD3A8 /* 8.FruitRainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF702C81D58500DFD3A8 /* 8.FruitRainbow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.GameCities.swift; sourceTree = "<group>"; };
 		768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.CallCenterJournal.swift; sourceTree = "<group>"; };
 		768BAF6E2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. ColorfulLife.swift"; sourceTree = "<group>"; };
+		768BAF702C81D58500DFD3A8 /* 8.FruitRainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8.FruitRainbow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				768BAF5E2C7FAED600DFD3A8 /* 175.UniqueUsers.swift */,
 				768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */,
 				768BAF6E2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift */,
+				768BAF702C81D58500DFD3A8 /* 8.FruitRainbow.swift */,
 			);
 			path = medium;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */,
 				768BAF5D2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift in Sources */,
 				768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */,
+				768BAF712C81D58500DFD3A8 /* 8.FruitRainbow.swift in Sources */,
 				768BAF512C7922B100DFD3A8 /* 185.CollarsAndDogs.swift in Sources */,
 				768BAF692C80B33100DFD3A8 /* 4.MaksimsGame.swift in Sources */,
 				768BAF5F2C7FAED600DFD3A8 /* 175.UniqueUsers.swift in Sources */,

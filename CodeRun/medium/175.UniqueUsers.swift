@@ -23,7 +23,7 @@ func uniqueUsers() {
         var domain = ""
         var findDash = false
         var lastDashIndex = 0
-        for (index, n) in email.enumerated() {
+        for (_, n) in email.enumerated() {
             if domain.isEmpty {
                 if n == "." {
                     continue

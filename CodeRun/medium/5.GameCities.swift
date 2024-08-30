@@ -14,12 +14,12 @@ func gameCities() {
     if let dotIndex = input1.firstIndex(of: ".") {
         input1.remove(at: dotIndex)
     }
-    var array1 = input1.split(separator: ", ").map { String($0) }
+    let array1 = input1.split(separator: ", ").map { String($0) }
     var input2 = readLine()!
     if let dotIndex = input2.firstIndex(of: ".") {
         input2.remove(at: dotIndex)
     }
-    var array2 = input2.split(separator: ", ").map { String($0) }
+    let array2 = input2.split(separator: ", ").map { String($0) }
     var set1 = Set<Set<String>>()
     
     for city in array1 {
