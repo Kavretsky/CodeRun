@@ -25,6 +25,7 @@
 		768BAF6D2C80D05800DFD3A8 /* 6.CallCenterJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */; };
 		768BAF6F2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF6E2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift */; };
 		768BAF712C81D58500DFD3A8 /* 8.FruitRainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF702C81D58500DFD3A8 /* 8.FruitRainbow.swift */; };
+		768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF722C81EF6D00DFD3A8 /* 9. RestoreReport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.CallCenterJournal.swift; sourceTree = "<group>"; };
 		768BAF6E2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. ColorfulLife.swift"; sourceTree = "<group>"; };
 		768BAF702C81D58500DFD3A8 /* 8.FruitRainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8.FruitRainbow.swift; sourceTree = "<group>"; };
+		768BAF722C81EF6D00DFD3A8 /* 9. RestoreReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. RestoreReport.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				768BAF6A2C80C32900DFD3A8 /* 5.GameCities.swift */,
 				768BAF6E2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift */,
 				768BAF702C81D58500DFD3A8 /* 8.FruitRainbow.swift */,
+				768BAF722C81EF6D00DFD3A8 /* 9. RestoreReport.swift */,
 			);
 			path = medium;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				768BAF692C80B33100DFD3A8 /* 4.MaksimsGame.swift in Sources */,
 				768BAF5F2C7FAED600DFD3A8 /* 175.UniqueUsers.swift in Sources */,
 				768BAF6F2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift in Sources */,
+				768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */,
 				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
 				768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */,
 				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,
