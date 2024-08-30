@@ -28,6 +28,7 @@
 		768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF722C81EF6D00DFD3A8 /* 9. RestoreReport.swift */; };
 		768BAF752C82109600DFD3A8 /* 10.SquareGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF742C82109600DFD3A8 /* 10.SquareGame.swift */; };
 		768BAF772C822AFD00DFD3A8 /* 11.KroshJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF762C822AFD00DFD3A8 /* 11.KroshJump.swift */; };
+		768BAF7A2C823C5B00DFD3A8 /* IndexOfChord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF792C823C5B00DFD3A8 /* IndexOfChord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		768BAF722C81EF6D00DFD3A8 /* 9. RestoreReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. RestoreReport.swift"; sourceTree = "<group>"; };
 		768BAF742C82109600DFD3A8 /* 10.SquareGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10.SquareGame.swift; sourceTree = "<group>"; };
 		768BAF762C822AFD00DFD3A8 /* 11.KroshJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11.KroshJump.swift; sourceTree = "<group>"; };
+		768BAF792C823C5B00DFD3A8 /* IndexOfChord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexOfChord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		768BAF442C78CE8900DFD3A8 /* CodeRun */ = {
 			isa = PBXGroup;
 			children = (
+				768BAF782C823C4F00DFD3A8 /* hard */,
 				768BAF592C7F998800DFD3A8 /* medium */,
 				768BAF582C7F998000DFD3A8 /* easy */,
 				768BAF452C78CE8900DFD3A8 /* main.swift */,
@@ -136,6 +139,14 @@
 				768BAF762C822AFD00DFD3A8 /* 11.KroshJump.swift */,
 			);
 			path = medium;
+			sourceTree = "<group>";
+		};
+		768BAF782C823C4F00DFD3A8 /* hard */ = {
+			isa = PBXGroup;
+			children = (
+				768BAF792C823C5B00DFD3A8 /* IndexOfChord.swift */,
+			);
+			path = hard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 				768BAF692C80B33100DFD3A8 /* 4.MaksimsGame.swift in Sources */,
 				768BAF5F2C7FAED600DFD3A8 /* 175.UniqueUsers.swift in Sources */,
 				768BAF6F2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift in Sources */,
+				768BAF7A2C823C5B00DFD3A8 /* IndexOfChord.swift in Sources */,
 				768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */,
 				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
 				768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */,
