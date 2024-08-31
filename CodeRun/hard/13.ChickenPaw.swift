@@ -67,7 +67,5 @@ func matchProbability(_ word1: String, _ word2: String) -> Double {
             
         }
     }
-    print(dp)
-    print(pow(0.1, 10.0))
     return dp[m][n]
 }

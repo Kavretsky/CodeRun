@@ -7,5 +7,5 @@
 
 import Foundation
 
-chickenPaw()
+bugInDB()
 
