@@ -9,8 +9,8 @@ import Foundation
 
 // 8. Фруктовая радуга
 
-var n = 0
-var matrix = [[Int]]()
+fileprivate var n = 0
+fileprivate var matrix = [[Int]]()
 
 func fruitRainbow() {
     let input = Int(readLine()!)!
