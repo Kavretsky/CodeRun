@@ -11,7 +11,6 @@ import Foundation
 
 func restoreRepost() {
     let input1 = readLine()!.split(separator: " ").map { Int(String($0))! }
-    let pagesCount = input1[0]
     let reportCount = input1[1]
     var pages: Set<String> = Set(readLine()!.split(separator: " ").map { String($0) })
     var dict = [String: [String]]()
