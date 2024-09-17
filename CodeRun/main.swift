@@ -7,5 +7,4 @@
 
 import Foundation
 
-checkFileSystem(file: filename)
-
+natashaTwoHands()
