@@ -35,6 +35,7 @@
 		768BAF822C83B3FF00DFD3A8 /* 16.TOS23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF812C83B3FF00DFD3A8 /* 16.TOS23.swift */; };
 		76D4B3F72C99B4E700776A61 /* 216.NatashaTwoHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */; };
 		76D4B3F92C99C33800776A61 /* 220.IndicatorNormalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */; };
+		76E9B94E2C9ADF6100FEDD96 /* Archiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9B94D2C9ADF6100FEDD96 /* Archiving.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,7 @@
 		768BAF812C83B3FF00DFD3A8 /* 16.TOS23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16.TOS23.swift; sourceTree = "<group>"; };
 		76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 216.NatashaTwoHands.swift; sourceTree = "<group>"; };
 		76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220.IndicatorNormalization.swift; sourceTree = "<group>"; };
+		76E9B94D2C9ADF6100FEDD96 /* Archiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archiving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				768BAF642C80AC9900DFD3A8 /* 2.FindGoose.swift */,
 				768BAF662C80B03600DFD3A8 /* 3.LuckyBox.swift */,
 				768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */,
+				76E9B94D2C9ADF6100FEDD96 /* Archiving.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				768BAF7A2C823C5B00DFD3A8 /* 12.IndexOfChord.swift in Sources */,
 				768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */,
 				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
+				76E9B94E2C9ADF6100FEDD96 /* Archiving.swift in Sources */,
 				768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */,
 				76D4B3F92C99C33800776A61 /* 220.IndicatorNormalization.swift in Sources */,
 				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,

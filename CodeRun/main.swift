@@ -7,4 +7,5 @@
 
 import Foundation
 
-indicatorNormalization()
+
+testArchiving()
