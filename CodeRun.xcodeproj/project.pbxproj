@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		766EA5832C9C5EF200906731 /* 193.WordsAndPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */; };
 		768BAF462C78CE8900DFD3A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF452C78CE8900DFD3A8 /* main.swift */; };
 		768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */; };
 		768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */; };
@@ -35,7 +36,7 @@
 		768BAF822C83B3FF00DFD3A8 /* 16.TOS23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF812C83B3FF00DFD3A8 /* 16.TOS23.swift */; };
 		76D4B3F72C99B4E700776A61 /* 216.NatashaTwoHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */; };
 		76D4B3F92C99C33800776A61 /* 220.IndicatorNormalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */; };
-		76E9B94E2C9ADF6100FEDD96 /* Archiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9B94D2C9ADF6100FEDD96 /* Archiving.swift */; };
+		76E9B94E2C9ADF6100FEDD96 /* 242.Archiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 193.WordsAndPeople.swift; sourceTree = "<group>"; };
 		768BAF422C78CE8900DFD3A8 /* CodeRun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeRun; sourceTree = BUILT_PRODUCTS_DIR; };
 		768BAF452C78CE8900DFD3A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153.SoftBedding.swift; sourceTree = "<group>"; };
@@ -80,7 +82,7 @@
 		768BAF812C83B3FF00DFD3A8 /* 16.TOS23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16.TOS23.swift; sourceTree = "<group>"; };
 		76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 216.NatashaTwoHands.swift; sourceTree = "<group>"; };
 		76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220.IndicatorNormalization.swift; sourceTree = "<group>"; };
-		76E9B94D2C9ADF6100FEDD96 /* Archiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archiving.swift; sourceTree = "<group>"; };
+		76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242.Archiving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +137,7 @@
 				768BAF642C80AC9900DFD3A8 /* 2.FindGoose.swift */,
 				768BAF662C80B03600DFD3A8 /* 3.LuckyBox.swift */,
 				768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */,
-				76E9B94D2C9ADF6100FEDD96 /* Archiving.swift */,
+				76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -157,6 +159,7 @@
 				768BAF762C822AFD00DFD3A8 /* 11.KroshJump.swift */,
 				76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */,
 				76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */,
+				766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */,
 			);
 			path = medium;
 			sourceTree = "<group>";
@@ -243,10 +246,11 @@
 				768BAF5F2C7FAED600DFD3A8 /* 175.UniqueUsers.swift in Sources */,
 				76D4B3F72C99B4E700776A61 /* 216.NatashaTwoHands.swift in Sources */,
 				768BAF6F2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift in Sources */,
+				766EA5832C9C5EF200906731 /* 193.WordsAndPeople.swift in Sources */,
 				768BAF7A2C823C5B00DFD3A8 /* 12.IndexOfChord.swift in Sources */,
 				768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */,
 				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
-				76E9B94E2C9ADF6100FEDD96 /* Archiving.swift in Sources */,
+				76E9B94E2C9ADF6100FEDD96 /* 242.Archiving.swift in Sources */,
 				768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */,
 				76D4B3F92C99C33800776A61 /* 220.IndicatorNormalization.swift in Sources */,
 				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,
