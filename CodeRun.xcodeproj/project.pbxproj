@@ -10,6 +10,7 @@
 		766EA5832C9C5EF200906731 /* 193.WordsAndPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */; };
 		766EA5A92C9DF0AE00906731 /* 237. Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5A82C9DF0AE00906731 /* 237. Managers.swift */; };
 		766EA5AB2C9E128E00906731 /* 20.DataAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AA2C9E128E00906731 /* 20.DataAnalysis.swift */; };
+		766EA5AD2C9E223500906731 /* 21.BlackAndWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AC2C9E223500906731 /* 21.BlackAndWhite.swift */; };
 		768BAF462C78CE8900DFD3A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF452C78CE8900DFD3A8 /* main.swift */; };
 		768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */; };
 		768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */; };
@@ -57,6 +58,7 @@
 		766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 193.WordsAndPeople.swift; sourceTree = "<group>"; };
 		766EA5A82C9DF0AE00906731 /* 237. Managers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. Managers.swift"; sourceTree = "<group>"; };
 		766EA5AA2C9E128E00906731 /* 20.DataAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.DataAnalysis.swift; sourceTree = "<group>"; };
+		766EA5AC2C9E223500906731 /* 21.BlackAndWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.BlackAndWhite.swift; sourceTree = "<group>"; };
 		768BAF422C78CE8900DFD3A8 /* CodeRun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeRun; sourceTree = BUILT_PRODUCTS_DIR; };
 		768BAF452C78CE8900DFD3A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153.SoftBedding.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				766EA5AA2C9E128E00906731 /* 20.DataAnalysis.swift */,
+				766EA5AC2C9E223500906731 /* 21.BlackAndWhite.swift */,
 				768BAF6C2C80D05800DFD3A8 /* 6.CallCenterJournal.swift */,
 				768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */,
 				768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */,
@@ -246,6 +249,7 @@
 				768BAF5D2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift in Sources */,
 				768BAF7C2C826AEA00DFD3A8 /* 13.ChickenPaw.swift in Sources */,
 				768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */,
+				766EA5AD2C9E223500906731 /* 21.BlackAndWhite.swift in Sources */,
 				768BAF712C81D58500DFD3A8 /* 8.FruitRainbow.swift in Sources */,
 				768BAF802C83578E00DFD3A8 /* 15.ForwardToThePast.swift in Sources */,
 				768BAF512C7922B100DFD3A8 /* 185.CollarsAndDogs.swift in Sources */,
