@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		766EA5832C9C5EF200906731 /* 193.WordsAndPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */; };
+		766EA5A92C9DF0AE00906731 /* 237. Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5A82C9DF0AE00906731 /* 237. Managers.swift */; };
 		768BAF462C78CE8900DFD3A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF452C78CE8900DFD3A8 /* main.swift */; };
 		768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */; };
 		768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 193.WordsAndPeople.swift; sourceTree = "<group>"; };
+		766EA5A82C9DF0AE00906731 /* 237. Managers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. Managers.swift"; sourceTree = "<group>"; };
 		768BAF422C78CE8900DFD3A8 /* CodeRun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeRun; sourceTree = BUILT_PRODUCTS_DIR; };
 		768BAF452C78CE8900DFD3A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153.SoftBedding.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */,
 				76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */,
 				766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */,
+				766EA5A82C9DF0AE00906731 /* 237. Managers.swift */,
 			);
 			path = medium;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				766EA5832C9C5EF200906731 /* 193.WordsAndPeople.swift in Sources */,
 				768BAF7A2C823C5B00DFD3A8 /* 12.IndexOfChord.swift in Sources */,
 				768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */,
+				766EA5A92C9DF0AE00906731 /* 237. Managers.swift in Sources */,
 				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
 				76E9B94E2C9ADF6100FEDD96 /* 242.Archiving.swift in Sources */,
 				768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */,

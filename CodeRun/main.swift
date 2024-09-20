@@ -7,4 +7,4 @@
 
 import Foundation
 
-parityOfNeighbors()
+managers()
