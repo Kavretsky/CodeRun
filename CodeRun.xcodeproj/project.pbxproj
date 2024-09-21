@@ -11,6 +11,7 @@
 		766EA5A92C9DF0AE00906731 /* 237. Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5A82C9DF0AE00906731 /* 237. Managers.swift */; };
 		766EA5AB2C9E128E00906731 /* 20.DataAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AA2C9E128E00906731 /* 20.DataAnalysis.swift */; };
 		766EA5AD2C9E223500906731 /* 21.BlackAndWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AC2C9E223500906731 /* 21.BlackAndWhite.swift */; };
+		766EA5AF2C9F081100906731 /* 22.Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AE2C9F081100906731 /* 22.Gradient.swift */; };
 		768BAF462C78CE8900DFD3A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF452C78CE8900DFD3A8 /* main.swift */; };
 		768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */; };
 		768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */; };
@@ -59,6 +60,7 @@
 		766EA5A82C9DF0AE00906731 /* 237. Managers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. Managers.swift"; sourceTree = "<group>"; };
 		766EA5AA2C9E128E00906731 /* 20.DataAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.DataAnalysis.swift; sourceTree = "<group>"; };
 		766EA5AC2C9E223500906731 /* 21.BlackAndWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.BlackAndWhite.swift; sourceTree = "<group>"; };
+		766EA5AE2C9F081100906731 /* 22.Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.Gradient.swift; sourceTree = "<group>"; };
 		768BAF422C78CE8900DFD3A8 /* CodeRun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeRun; sourceTree = BUILT_PRODUCTS_DIR; };
 		768BAF452C78CE8900DFD3A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153.SoftBedding.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				768BAF662C80B03600DFD3A8 /* 3.LuckyBox.swift */,
 				768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */,
 				76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */,
+				766EA5AE2C9F081100906731 /* 22.Gradient.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				768BAF732C81EF6D00DFD3A8 /* 9. RestoreReport.swift in Sources */,
 				766EA5A92C9DF0AE00906731 /* 237. Managers.swift in Sources */,
 				768BAF5B2C7F999600DFD3A8 /* 160.FindRome.swift in Sources */,
+				766EA5AF2C9F081100906731 /* 22.Gradient.swift in Sources */,
 				76E9B94E2C9ADF6100FEDD96 /* 242.Archiving.swift in Sources */,
 				768BAF672C80B03600DFD3A8 /* 3.LuckyBox.swift in Sources */,
 				76D4B3F92C99C33800776A61 /* 220.IndicatorNormalization.swift in Sources */,
