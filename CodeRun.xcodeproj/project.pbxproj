@@ -12,6 +12,7 @@
 		766EA5AB2C9E128E00906731 /* 20.DataAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AA2C9E128E00906731 /* 20.DataAnalysis.swift */; };
 		766EA5AD2C9E223500906731 /* 21.BlackAndWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AC2C9E223500906731 /* 21.BlackAndWhite.swift */; };
 		766EA5AF2C9F081100906731 /* 22.Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766EA5AE2C9F081100906731 /* 22.Gradient.swift */; };
+		76859DF92CA09D80005305AF /* 23.ShortRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76859DF82CA09D80005305AF /* 23.ShortRoute.swift */; };
 		768BAF462C78CE8900DFD3A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF452C78CE8900DFD3A8 /* main.swift */; };
 		768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */; };
 		768BAF4F2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BAF4E2C791C1400DFD3A8 /* 180.MostDifficultLetter.swift */; };
@@ -61,6 +62,7 @@
 		766EA5AA2C9E128E00906731 /* 20.DataAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.DataAnalysis.swift; sourceTree = "<group>"; };
 		766EA5AC2C9E223500906731 /* 21.BlackAndWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.BlackAndWhite.swift; sourceTree = "<group>"; };
 		766EA5AE2C9F081100906731 /* 22.Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.Gradient.swift; sourceTree = "<group>"; };
+		76859DF82CA09D80005305AF /* 23.ShortRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23.ShortRoute.swift; sourceTree = "<group>"; };
 		768BAF422C78CE8900DFD3A8 /* CodeRun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeRun; sourceTree = BUILT_PRODUCTS_DIR; };
 		768BAF452C78CE8900DFD3A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		768BAF4C2C79117600DFD3A8 /* 153.SoftBedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153.SoftBedding.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				768BAF682C80B33100DFD3A8 /* 4.MaksimsGame.swift */,
 				76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */,
 				766EA5AE2C9F081100906731 /* 22.Gradient.swift */,
+				76859DF82CA09D80005305AF /* 23.ShortRoute.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -213,7 +216,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					768BAF412C78CE8900DFD3A8 = {
 						CreatedOnToolsVersion = 15.4;
@@ -254,6 +257,7 @@
 				768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */,
 				766EA5AD2C9E223500906731 /* 21.BlackAndWhite.swift in Sources */,
 				768BAF712C81D58500DFD3A8 /* 8.FruitRainbow.swift in Sources */,
+				76859DF92CA09D80005305AF /* 23.ShortRoute.swift in Sources */,
 				768BAF802C83578E00DFD3A8 /* 15.ForwardToThePast.swift in Sources */,
 				768BAF512C7922B100DFD3A8 /* 185.CollarsAndDogs.swift in Sources */,
 				768BAF692C80B33100DFD3A8 /* 4.MaksimsGame.swift in Sources */,
@@ -317,6 +321,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -380,6 +385,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -407,6 +413,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,6 +428,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
