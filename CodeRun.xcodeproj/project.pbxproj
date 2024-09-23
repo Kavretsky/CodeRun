@@ -42,6 +42,7 @@
 		76D4B3F72C99B4E700776A61 /* 216.NatashaTwoHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */; };
 		76D4B3F92C99C33800776A61 /* 220.IndicatorNormalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */; };
 		76E9B94E2C9ADF6100FEDD96 /* 242.Archiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */; };
+		76EAB2792CA1DCF2007BBACE /* 24.RowOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +94,7 @@
 		76D4B3F62C99B4E700776A61 /* 216.NatashaTwoHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 216.NatashaTwoHands.swift; sourceTree = "<group>"; };
 		76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220.IndicatorNormalization.swift; sourceTree = "<group>"; };
 		76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242.Archiving.swift; sourceTree = "<group>"; };
+		76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.RowOfNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */,
 				766EA5822C9C5EF200906731 /* 193.WordsAndPeople.swift */,
 				766EA5A82C9DF0AE00906731 /* 237. Managers.swift */,
+				76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */,
 			);
 			path = medium;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				768BAF692C80B33100DFD3A8 /* 4.MaksimsGame.swift in Sources */,
 				768BAF5F2C7FAED600DFD3A8 /* 175.UniqueUsers.swift in Sources */,
 				76D4B3F72C99B4E700776A61 /* 216.NatashaTwoHands.swift in Sources */,
+				76EAB2792CA1DCF2007BBACE /* 24.RowOfNumbers.swift in Sources */,
 				768BAF6F2C80D8BC00DFD3A8 /* 7. ColorfulLife.swift in Sources */,
 				766EA5832C9C5EF200906731 /* 193.WordsAndPeople.swift in Sources */,
 				768BAF7A2C823C5B00DFD3A8 /* 12.IndexOfChord.swift in Sources */,
