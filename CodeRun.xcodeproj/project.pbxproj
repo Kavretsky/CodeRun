@@ -45,6 +45,7 @@
 		76EAB2792CA1DCF2007BBACE /* 24.RowOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */; };
 		76EAB27B2CA1E5CC007BBACE /* 25.Hokku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */; };
 		76EAB27D2CA31920007BBACE /* 26.GameWithChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB27C2CA31920007BBACE /* 26.GameWithChanges.swift */; };
+		76EAB27F2CA31FF3007BBACE /* PowerOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB27E2CA31FF3007BBACE /* PowerOfArt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +100,7 @@
 		76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.RowOfNumbers.swift; sourceTree = "<group>"; };
 		76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.Hokku.swift; sourceTree = "<group>"; };
 		76EAB27C2CA31920007BBACE /* 26.GameWithChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.GameWithChanges.swift; sourceTree = "<group>"; };
+		76EAB27E2CA31FF3007BBACE /* PowerOfArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfArt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				76859DF82CA09D80005305AF /* 23.ShortRoute.swift */,
 				76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */,
 				76EAB27C2CA31920007BBACE /* 26.GameWithChanges.swift */,
+				76EAB27E2CA31FF3007BBACE /* PowerOfArt.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EAB27F2CA31FF3007BBACE /* PowerOfArt.swift in Sources */,
 				768BAF6D2C80D05800DFD3A8 /* 6.CallCenterJournal.swift in Sources */,
 				768BAF462C78CE8900DFD3A8 /* main.swift in Sources */,
 				768BAF532C7A339300DFD3A8 /* 199.FindStore.swift in Sources */,
