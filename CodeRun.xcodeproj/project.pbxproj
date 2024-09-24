@@ -44,6 +44,7 @@
 		76E9B94E2C9ADF6100FEDD96 /* 242.Archiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */; };
 		76EAB2792CA1DCF2007BBACE /* 24.RowOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */; };
 		76EAB27B2CA1E5CC007BBACE /* 25.Hokku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */; };
+		76EAB27D2CA31920007BBACE /* 26.GameWithChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB27C2CA31920007BBACE /* 26.GameWithChanges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +98,7 @@
 		76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242.Archiving.swift; sourceTree = "<group>"; };
 		76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.RowOfNumbers.swift; sourceTree = "<group>"; };
 		76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.Hokku.swift; sourceTree = "<group>"; };
+		76EAB27C2CA31920007BBACE /* 26.GameWithChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.GameWithChanges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				766EA5AE2C9F081100906731 /* 22.Gradient.swift */,
 				76859DF82CA09D80005305AF /* 23.ShortRoute.swift */,
 				76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */,
+				76EAB27C2CA31920007BBACE /* 26.GameWithChanges.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				768BAF552C7E4A1000DFD3A8 /* 212.addMinus.swift in Sources */,
 				768BAF822C83B3FF00DFD3A8 /* 16.TOS23.swift in Sources */,
 				768BAF752C82109600DFD3A8 /* 10.SquareGame.swift in Sources */,
+				76EAB27D2CA31920007BBACE /* 26.GameWithChanges.swift in Sources */,
 				768BAF7E2C8353E600DFD3A8 /* 14.BugInDB.swift in Sources */,
 				768BAF572C7F6EF800DFD3A8 /* 223.ParityOfNeighbors.swift in Sources */,
 				768BAF772C822AFD00DFD3A8 /* 11.KroshJump.swift in Sources */,
