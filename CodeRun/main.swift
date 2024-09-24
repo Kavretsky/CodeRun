@@ -7,4 +7,4 @@
 
 import Foundation
 
-rowOfNumbers()
+hokku()

@@ -43,6 +43,7 @@
 		76D4B3F92C99C33800776A61 /* 220.IndicatorNormalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */; };
 		76E9B94E2C9ADF6100FEDD96 /* 242.Archiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */; };
 		76EAB2792CA1DCF2007BBACE /* 24.RowOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */; };
+		76EAB27B2CA1E5CC007BBACE /* 25.Hokku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		76D4B3F82C99C33800776A61 /* 220.IndicatorNormalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220.IndicatorNormalization.swift; sourceTree = "<group>"; };
 		76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242.Archiving.swift; sourceTree = "<group>"; };
 		76EAB2782CA1DCF2007BBACE /* 24.RowOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.RowOfNumbers.swift; sourceTree = "<group>"; };
+		76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.Hokku.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				76E9B94D2C9ADF6100FEDD96 /* 242.Archiving.swift */,
 				766EA5AE2C9F081100906731 /* 22.Gradient.swift */,
 				76859DF82CA09D80005305AF /* 23.ShortRoute.swift */,
+				76EAB27A2CA1E5CC007BBACE /* 25.Hokku.swift */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				768BAF5D2C7FA99400DFD3A8 /* 168.UpgradeCharacter.swift in Sources */,
 				768BAF7C2C826AEA00DFD3A8 /* 13.ChickenPaw.swift in Sources */,
 				768BAF4D2C79117600DFD3A8 /* 153.SoftBedding.swift in Sources */,
+				76EAB27B2CA1E5CC007BBACE /* 25.Hokku.swift in Sources */,
 				766EA5AD2C9E223500906731 /* 21.BlackAndWhite.swift in Sources */,
 				768BAF712C81D58500DFD3A8 /* 8.FruitRainbow.swift in Sources */,
 				76859DF92CA09D80005305AF /* 23.ShortRoute.swift in Sources */,
